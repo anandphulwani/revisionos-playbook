@@ -4,11 +4,14 @@ description: Custom Revision configuration
 privilege: Admin
 actions: []
 features:
-- features\revision\start.yml
-- features\revision\services.yml
-- features\revision\appx.yml
-- features\revision\components.yml
-- features\revision\packages.yml
-- features\revision\registry.yml
-- features\revision\revert.yml
-- features\revision\config.yml
+# - features\revision\start.yml
+# - features\revision\services.yml
+# - features\revision\appx.yml
+# - features\revision\components.yml
+# - features\revision\packages.yml
+# - features\revision\registry.yml
+# - features\revision\revert.yml
+# - features\revision\config.yml
+- features\harlax\disable-narrator.yml
+- features\harlax\disable-charactermap.yml
+- features\harlax\disable-snippingtool.yml
