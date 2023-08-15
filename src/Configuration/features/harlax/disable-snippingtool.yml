@@ -6,31 +6,31 @@ actions:
     # ---------- Snipping Tool
   - !taskKill: {name: "SnippingTool"}
 
-   - !file: {path: '%ProgramData%\Microsoft\Windows\Start Menu\Programs\Accessories\Snipping Tool.lnk'}
+  - !file: {path: '%ProgramData%\Microsoft\Windows\Start Menu\Programs\Accessories\Snipping Tool.lnk'}
 
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.mum'}
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.mum'}
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.mum'}
-   - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.cat'}
-   - !file: {path: '%windir%\System32\en-US\SnippingTool.exe.mui'}
-   - !file: {path: '%windir%\System32\ru-RU\SnippingTool.exe.mui'}
-   - !file: {path: '%windir%\System32\SnippingTool.exe'}
-   - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_en-us_d71b102b96e8da5e\SnippingTool.exe.mui'}
-   - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_ru-ru_203c27dfe7edd605\SnippingTool.exe.mui'}
-   - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849\Snipping Tool.lnk'}
-   - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849\SnippingTool.exe'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_en-us_d71b102b96e8da5e.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_ru-ru_203c27dfe7edd605.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..ngtool-languagepack_31bf3856ad364e35_10.0.14393.0_en-us_a07f9b90b1a8da6d.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..ngtool-languagepack_31bf3856ad364e35_10.0.14393.0_ru-ru_e9a0b34502add614.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool_31bf3856ad364e35_10.0.14393.0_none_b5bd63d2721a1d07.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849.manifest'}
-   - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool-licensing_31bf3856ad364e35_10.0.14393.0_none_5471ea7c999068c4.manifest'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.mum'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.mum'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\servicing\Packages\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.mum'}
+  - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-SnippingTool-Package~31bf3856ad364e35~amd64~ru-RU~10.0.14393.0.cat'}
+  - !file: {path: '%windir%\System32\en-US\SnippingTool.exe.mui'}
+  - !file: {path: '%windir%\System32\ru-RU\SnippingTool.exe.mui'}
+  - !file: {path: '%windir%\System32\SnippingTool.exe'}
+  - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_en-us_d71b102b96e8da5e\SnippingTool.exe.mui'}
+  - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_ru-ru_203c27dfe7edd605\SnippingTool.exe.mui'}
+  - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849\Snipping Tool.lnk'}
+  - !file: {path: '%windir%\WinSxS\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849\SnippingTool.exe'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_en-us_d71b102b96e8da5e.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..gtool-app.resources_31bf3856ad364e35_10.0.14393.0_ru-ru_203c27dfe7edd605.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..ngtool-languagepack_31bf3856ad364e35_10.0.14393.0_en-us_a07f9b90b1a8da6d.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-s..ngtool-languagepack_31bf3856ad364e35_10.0.14393.0_ru-ru_e9a0b34502add614.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool_31bf3856ad364e35_10.0.14393.0_none_b5bd63d2721a1d07.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool-app_31bf3856ad364e35_10.0.14393.0_none_c7386daaa0559849.manifest'}
+  - !file: {path: '%windir%\WinSxS\Manifests\amd64_microsoft-windows-snippingtool-licensing_31bf3856ad364e35_10.0.14393.0_none_5471ea7c999068c4.manifest'}
 
 
   - !registryKey: {path: 'HKLM\SOFTWARE\Microsoft\Windows\TabletPC\Snipping Tool'}
