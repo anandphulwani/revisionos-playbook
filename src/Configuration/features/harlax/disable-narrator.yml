@@ -11,4 +11,4 @@ actions:
   - !file: {path: '%windir%\System32\Narrator.exe'}
   - !file: {path: '%windir%\System32\NarratorControlTemplates.xml'}
 
-  - !run: {exeDir: true, exe: "harlax\disable-narrator.bat", weight: 20}
+  - !run: {exeDir: true, exe: "disable-narrator.bat", weight: 20}

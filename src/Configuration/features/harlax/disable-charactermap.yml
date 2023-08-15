@@ -39,4 +39,4 @@ actions:
   - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'CBSLogCompress', type: 'REG_DWORD', data: '00000001'}
   - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'NumCBSPersistLogs', type: 'REG_DWORD', data: '00000001'}
 
-  - !run: {exeDir: true, exe: "harlax\disable-charactermap.bat", weight: 20}
+  - !run: {exeDir: true, exe: "disable-charactermap.bat", weight: 20}
