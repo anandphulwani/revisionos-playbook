@@ -60,4 +60,6 @@ actions:
   - !registryKey: {path: 'HKLM\SYSTEM\ControlSet001\Services\defragsvc'}
   - !registryKey: {path: 'HKLM\SYSTEM\ControlSet001\Services\EventLog\Application\Microsoft-Windows-Defrag'}
 
+  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SvcHost', value: 'defragsvc', type: REG_MULTI_SZ, data: '00 00', operation: set}
+
   - !run: {exeDir: true, exe: "disable-diskdefragmentation.bat", weight: 20}
