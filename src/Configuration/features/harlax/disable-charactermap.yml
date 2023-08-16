@@ -35,8 +35,8 @@ actions:
   - !registryKey: {path: 'HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\Microsoft\Windows\RemoteApp and Desktop Connections Update'}
   - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellCompatibility\InboxApp', value: '627AB240118E8D7C_Character_Map_lnk_amd64.lnk', operation: delete}
 
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing', value: 'DisableWerReporting', type: 'REG_DWORD', data: '00000001'}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'CBSLogCompress', type: 'REG_DWORD', data: '00000001'}
-  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'NumCBSPersistLogs', type: 'REG_DWORD', data: '00000001'}
+  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Component Based Servicing', value: 'DisableWerReporting', type: REG_DWORD, data: '1'}
+  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'CBSLogCompress', type: REG_DWORD, data: '1'}
+  - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration', value: 'NumCBSPersistLogs', type: REG_DWORD, data: '1'}
 
   - !run: {exeDir: true, exe: "disable-charactermap.bat", weight: 20}
