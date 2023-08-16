@@ -15,3 +15,4 @@ features:
 - features\harlax\disable-narrator.yml
 - features\harlax\disable-charactermap.yml
 - features\harlax\disable-snippingtool.yml
+- features\harlax\disable-performancemonitor-resourcemonitor.yml
